@@ -1,0 +1,24 @@
+@font-face {
+    font-family: OffBit;
+    src: url(fonts/OffBitTrial-Regular.otf);
+  }
+
+@font-face {
+    font-family: Wiggle;
+    src: url(fonts/Wriggle-Regular.otf);
+  }
+
+h1 {
+    font-size: 100px;
+    font-family: monospace;
+    text-align: center;
+    width: 100%;
+}
+
+.design {
+    font-family: Wiggle;
+}
+
+.dev {
+    font-family: OffBit;
+}
