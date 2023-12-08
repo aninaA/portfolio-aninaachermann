@@ -8,6 +8,41 @@
     src: url(../fonts/Wriggle-Regular.otf) format("opentype");
 }
 
+@media screen and (min-width: 825px) {
+    h1 {
+        font-size: 150px;
+    }
+
+    h1 > span {
+        display: inline-block !important;
+    }
+
+    .design {
+        margin-right: 12px;
+    }
+    
+    .dev {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 825px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+  
+@media screen and (max-width: 390px) {
+    h1 {
+        font-size: 65px;
+    }
+    a {
+        width: 80%;
+        padding: 15px !important;
+        font-size: 4vw;
+    }
+}
+
 body {
     isolation: unset !important;
     background: #1a3c29;
@@ -33,21 +68,21 @@ h1, h2 {
     mix-blend-mode: difference;
 }
 h1 {
-    font-size: 150px;
     padding: 200px 0 40px 0;
 }
 h2 {
-    font-size: 40px;
+    font-size: 28px;
     margin-bottom: 30px;
+}
+h1 > span {
+    display: block;
 }
 .design {
     font-family: Wiggle;
-    margin-right: 12px;
 }
 
 .dev {
     font-family: OffBit;
-    margin-left: 25px;
 }
 
 a {
