@@ -1,24 +1,47 @@
 @font-face {
     font-family: OffBit;
-    src: url(fonts/OffBitTrial-Regular.otf);
+    src: url(../fonts/OffBitTrial-Regular.otf) format("opentype");
   }
 
 @font-face {
     font-family: Wiggle;
-    src: url(fonts/Wriggle-Regular.otf);
+    src: url(../fonts/Wriggle-Regular.otf) format("opentype");
   }
 
-h1 {
-    font-size: 100px;
+body {
+    background: #1a3c29;
+    color: #dbbdaa;
     font-family: monospace;
     text-align: center;
-    width: 100%;
 }
-
+h1, h2 {
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 150px;
+    margin: 200px 0 40px 0;
+}
+h2 {
+    font-size: 40px;;
+}
 .design {
     font-family: Wiggle;
+    margin-right: 12px;
 }
 
 .dev {
     font-family: OffBit;
+    margin-left: 25px;
+}
+
+a {
+    display: inline-block;
+    border: 2px solid #dbbdaa;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #dbbdaa;
+    font-family: monospace;
+    text-decoration: none;
+    text-transform: uppercase;
 }
