@@ -9,6 +9,7 @@
 }
 
 body {
+    isolation: unset !important;
     background: #1a3c29;
     color: #ffeed3; 
     /*color: #fff6d3; */ /*soft yellow for blend mode */
