@@ -6,24 +6,38 @@
 @font-face {
     font-family: Wiggle;
     src: url(../fonts/Wriggle-Regular.otf) format("opentype");
-  }
+}
 
 body {
     background: #1a3c29;
-    color: #dbbdaa;
+    color: #ffeed3; 
+    /*color: #fff6d3; */ /*soft yellow for blend mode */
+    /*color: #dbbdaa */ /* soft pink for without blend mode */
     font-family: monospace;
     text-align: center;
+}
+.noise {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/noise.svg);
+    mix-blend-mode: difference;
+    opacity: 50%;
+    z-index: -1;
 }
 h1, h2 {
     width: 100%;
     text-align: center;
+    margin: 0;
+    mix-blend-mode: difference;
 }
 h1 {
     font-size: 150px;
-    margin: 200px 0 40px 0;
+    padding: 200px 0 40px 0;
 }
 h2 {
-    font-size: 40px;;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 .design {
     font-family: Wiggle;
